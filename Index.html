@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>There’s No Heroes – Ficha</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="hud">
+
+  <!-- LEFT PANEL -->
+  <div>
+    <div class="panel" id="fotoBox">
+      <h3>FOTO</h3>
+      <img id="photoPreview">
+      <input type="file" id="photoInput">
+    </div>
+
+    <div class="panel attr">
+      <h4>ATRIBUTOS</h4>
+      <input placeholder="Intelecto (INT)" id="INT">
+      <input placeholder="Percepção (PERSP)" id="PER">
+      <input placeholder="Técnica (TEC)" id="TEC">
+      <input placeholder="Força (FOR)" id="FOR">
+      <input placeholder="Agilidade (AGI)" id="AGI">
+      <input placeholder="Resiliência (RES)" id="RES">
+      <input placeholder="Psique (PSI)" id="PSI">
+      <input placeholder="Comunicação (COM)" id="COM">
+    </div>
+
+    <label>OXIGÊNIO</label>
+    <div class="bar"><div class="bar-fill" id="o2"></div></div>
+    <div class="segments" id="o2seg"></div>
+
+    <label>SANIDADE</label>
+    <div class="bar"><div class="bar-fill" id="san"></div></div>
+    <div class="segments" id="sanseg"></div>
+  </div>
+
+  <!-- CENTER PANEL -->
+  <div class="panel">
+    <h3>MISSION LOG</h3>
+    <textarea id="log"></textarea>
+  </div>
+
+  <!-- RIGHT PANEL -->
+  <div class="panel">
+    <h3>INVENTÁRIO</h3>
+    <div id="invBox"></div>
+
+    <div class="mut">
+      <h4>MUTAÇÕES</h4>
+      <input placeholder="Mutação 1" id="mut1">
+      <input placeholder="Mutação 2" id="mut2">
+      <input placeholder="Mutação 3" id="mut3">
+    </div>
+
+    <label>TRAJE</label>
+    <div class="bar"><div class="bar-fill" id="suit"></div></div>
+    <div class="segments" id="suitseg"></div>
+
+    <label>CONTAMINAÇÃO</label>
+    <div class="bar"><div class="bar-fill" id="inf"></div></div>
+    <div class="segments" id="infseg"></div>
+
+    <h4>CONDIÇÕES</h4>
+    <div class="cond-grid" id="condGrid"></div>
+  </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
