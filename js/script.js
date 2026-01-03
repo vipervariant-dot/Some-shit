@@ -1,4 +1,3 @@
-// === HUD STATE SYSTEM ===
 let stats = {
   o2: 100,
   suit: 100,
